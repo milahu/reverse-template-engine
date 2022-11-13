@@ -83,6 +83,7 @@ aka: parser-generators
 
 - https://reverseengineering.stackexchange.com/questions/1331/automated-tools-for-file-format-reverse-engineering
 - https://stackoverflow.com/questions/42727092/find-similar-branches-in-multiple-trees
+- https://softwareengineering.stackexchange.com/questions/241485/do-input-template-languages-exist
 
 ## keywords
 
