@@ -237,25 +237,3 @@ async function main() {
 }
 
 main()
-
-
-
-/*
-var left = h('div', [
-  h('p', ['Some ', h('b', 'importance'), ' and ', h('i', 'emphasis'), '.']),
-  h('pre', h('code', 'foo()'))
-])
-
-var right = h('div', [
-  h('p', [
-    'Some ',
-    h('strong', 'importance'),
-    ' and ',
-    h('em', 'emphasis'),
-    '.'
-  ]),
-  h('pre', h('code', 'bar()'))
-])
-
-console.dir(diff(left, right), {depth: null})
-*/
