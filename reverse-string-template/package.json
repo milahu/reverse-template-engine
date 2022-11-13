@@ -1,0 +1,23 @@
+{
+  "name": "reverse-string-template",
+  "version": "1.0.0",
+  "description": "Extract values from structured strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/mbrevoort/reverse-string-template"
+  },
+  "keywords": [
+    "template",
+    "regex",
+    "extract"
+  ],
+  "author": "Mike Brevoort",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
