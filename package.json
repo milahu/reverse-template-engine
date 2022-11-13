@@ -1,0 +1,23 @@
+{
+  "name": "reverse-template-engine",
+  "version": "0.0.1",
+  "description": "find a template of many similar html files",
+  "type": "module",
+  "main": "reverse-template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "hast-util-from-parse5": "^7.1.0",
+    "hast-util-to-html": "^8.0.3",
+    "mustache": "^4.2.0",
+    "parse5": "^7.1.1",
+    "underscore": "^1.13.6",
+    "unist-diff": "^2.0.0",
+    "unist-util-visit": "^4.1.1"
+  }
+}
