@@ -334,12 +334,15 @@ have reached is that learning is all about forgetting.
 - https://github.com/topics/automata-learning
 - https://github.com/topics/dfa-learning
 - https://github.com/DES-Lab/AALpy
-- https://github.com/steynvl/inferrer
-- https://github.com/LearnLib/learnlib
+- https://github.com/steynvl/inferrer - 30 stars - Python - automata learning library
+- https://github.com/LearnLib/learnlib - xxxx stars - Python - Library for Automata Learning and Experimentation
 - https://github.com/mvcisback/dfa-identify - identifying (learning) minimal DFAs from labeled examples by reduction to SAT
 - https://github.com/ctlab/DFA-Inductor-py - passive inference via reduction to SAT
 - https://gitlab.science.ru.nl/rick/z3gi - SMT backed passive learning algorithm
 - https://pypi.org/project/lstar/ - Active learning algorithm based L* derivative
+- https://wcventure.github.io/Active-Automata-Learning/ - A Quick Survey of Active Automata Learning
+- https://blog.csdn.net/wcventure/article/details/79144074 - Angluin L* algorithm
+- https://arxiv.org/pdf/2209.14031.pdf Active vs. Passive: A Comparison of Automata Learning Paradigms for Network Protocols
 
 ### Substring-Based Algorithms
 
