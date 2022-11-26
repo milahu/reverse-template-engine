@@ -80,9 +80,9 @@ a **reverse** template engine does the opposite
 
 ### grammar inference
 
+- grammar learning, grammar inference, grammatical inference, grammar induction
+- https://en.wikipedia.org/wiki/Grammar_induction
 - https://datascience.stackexchange.com/questions/78377/learn-common-grammar-pattern-from-set-of-sample-strings
-  - grammar learning, grammar inference, grammatical inference, grammar induction
-    - https://en.wikipedia.org/wiki/Grammar_induction
 - https://stackoverflow.com/questions/15512918/grammatical-inference-of-regular-expressions-for-given-finite-list-of-representa
   - DFA Learning algorithm
     - DFA = deterministic finite automaton
@@ -90,7 +90,10 @@ a **reverse** template engine does the opposite
     - http://libalf.informatik.rwth-aachen.de/
     - https://github.com/libalf/libalf
 - https://github.com/topics/grammatical-inference
+- https://github.com/topics/grammar-induction-algorithms
+  - https://github.com/asaparov/parser - 20 stars - C++ - Semantic parser induction using a generative model of grammar.
 - https://github.com/topics/inductive-learning
+- https://github.com/topics/semantic-parser - NLP, natural language processing, human language processing
 - https://libgen.rs/search.php?req=grammatical+inference
   - Wojciech Wieczorek - Grammatical Inference. Algorithms Routines and Applications (2017)
   - Colin de la Higuera - Grammatical Inference. Learning Automata and Grammars (2010)
@@ -155,6 +158,11 @@ languages and transducers.
 
 #### Data Extraction
 
+- https://github.com/topics/data-extraction
+- https://github.com/hi-primus/optimus - 1K stars - Python - Agile Data Preparation Workflows made easy with Pandas, Dask, cuDF, Dask-cuDF, Vaex and PySpark. Optimus is an opinionated python library to easily load, process, plot and create ML models that run over pandas, Dask, cuDF, dask-cuDF, Vaex or Spark.
+- https://github.com/hermit-crab/ScrapeMate - 100 stars - JavaScript - Scraping assistant tool. Editing and maintaining CSS/XPath selectors across webpages. Available as a Chrome/Chromium and a Firefox extensions.
+- https://github.com/scopashq/typestream - 50 stars - JavaScript - data transformation framework for TypeScript
+
 <blockquote>
 
 2.4.2 Information extraction: automatic wrapper generation
@@ -217,6 +225,8 @@ This will justify in part the rising interest in **active learning** methods.
 </blockquote>
 
 #### Tree Automata
+
+https://github.com/topics/tree-automata
 
 <blockquote>
 
@@ -345,6 +355,10 @@ for computational linguistics, pp 865–872
 - https://github.com/syntax-tree/unist-diff - part of unifiedjs
 - https://github.com/Tchanders/treeDiffer.js
 
+### data transformers
+
+- https://github.com/scopashq/typestream
+
 ### template-based parsing
 
 different from "template finding"
@@ -367,6 +381,10 @@ aka: parser-generators
 #### java
 
 - https://github.com/juzraai/reverse-template-engine
+
+#### C++
+
+- https://github.com/html-extract/hext - Domain-specific language for extracting structured data from HTML documents
 
 ## see also
 
