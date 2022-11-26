@@ -153,6 +153,141 @@ languages and transducers.
 
 </blockquote>
 
+#### Data Extraction
+
+<blockquote>
+
+2.4.2 Information extraction: automatic wrapper generation
+
+The quantity of structured data available today due to the exponential growth of the World
+Wide Web introduces a number of challenges to scientists interested in grammatical inference.
+HTML and XML data appear as text,
+but the text is well bracketed through a number of tags
+that are either syntactic (HTML) and give indications as to how the file should be represented,
+or semantic (XML).
+
+Here is a small piece from an XML file:
+
+```xml
+<book>
+  <chapter>
+    <name>Introduction</name>
+    <length>25 pages</length>
+    <description>
+      Motivations about the book
+    </description>
+    <exercises>0</exercises>
+  </chapter>
+  <chapter>
+    <name>The Data</name>
+    <length>18 pages</length>
+    <description>
+      Describe some cases where the data is made of strings
+    </description>
+    <exercises>0</exercises>
+  </chapter>
+  <chapter>
+    <name>Strings and Languages</name>
+    <length>35 pages</length>
+    <description>
+      Definitions of strings and stringology
+    </description>
+    <exercises>23</exercises>
+  </chapter>
+</book>
+```
+
+Between the many problems when working with these files,
+one can aim to **find the grammar corresponding to a set of XML files**.
+
+One very nice application in which grammatical inference has been helpful is that of
+building a wrapper automatically (or semi-automatically).
+A wrapper is supposed to take a web page and extract from it the information for which it has been designed.
+
+For instance, if we need to build a mailing list, the wrapper would find in a web page the information that is needed.
+Obviously, the wrapper will work on the code of the web page: the HTML or XML file.
+Therefore, **grammatical inference of tree automata** is an obvious candidate.
+
+Another feature of the task is that labelling the examples is cumbersome and can be noisy.
+The proposal is to do this on the fly, through an interaction between the system and the user.
+This will justify in part the rising interest in **active learning** methods.
+
+&mdash; Colin de la Higuera - Grammatical Inference. Learning Automata and Grammars (2010)
+
+</blockquote>
+
+#### Tree Automata
+
+<blockquote>
+
+What about trees and graphs?
+
+The original goal was to cover extensively the field of grammatical inference.
+
+This of
+course meant discussing in detail **tree automata** and grammars, giving the main adaptation
+of classical string algorithms to the case of trees, and even dealing with those works specific
+to trees. As work progressed it became clear that **learning tree automata** and grammars was
+going to involve at least as much material as with strings.
+
+The conclusion was reached to
+only sketch the specificities here, leaving the matter largely untouched, with everything to
+be written. This of course is not justified by the importance of the question, but only by the
+editorial difficulty and the necessity to stop somewhere. Of course, after trees will come
+the question of graphs...
+
+...
+
+Extensions of the above mechanisms (automata, grammars) to deal with trees and
+graphs have been proposed. For the case of **tree automata** a general survey is (Comon
+et al., 1997) and for graph grammars there are a number of possible sources (Courcelle,
+1991).
+
+...
+
+Algorithm RPNI has been successfully adapted to **tree automata** (García & Oncina,
+1993), and infinitary languages (de la Higuera & Janodet, 2004).
+
+...
+
+In the field of computational linguistics, efforts have been made to learn context-free
+grammars from more informative data, such as trees (Charniak, 1996),
+following theoretical results by Yasubumi Sakakibara (Sakakibara, 1992). Learning from structured data has
+been a line followed by many: learning tree automata (Fernau, 2002, Habrard, Bernard &
+Jacquenet, 2002, Knuutila & Steinby, 1994), or context-free grammars from bracketed data
+(Sakakibara, 1990) allows to obtain better results, either with queries (Sakakibara, 1992),
+regular distributions (Carrasco, Oncina & Calera-Rubio, 2001, Kremer, 1997, Rico-Juan,
+Calera-Rubio & Carrasco, 2002), or negative information (García & Oncina, 1993). This
+has also led to different studies concerning the probability estimation of such grammars
+(Calera-Rubio & Carrasco, 1998, Lari & Young, 1990).
+
+...
+
+19.3 About trees and graphs and more structure
+
+We have left untouched (or nearly untouched) the question of learning from data that would
+be more structured than strings. There are many researchers working on learning tree grammars and tree automata.
+In some cases the work consists of adapting a string language
+inference algorithm to suit the tree case, but in many others the problems are new and
+novel algorithms are needed. Furthermore, in practice, in many cases the tree structures
+allow us to model the data in a much more accurate fashion.
+
+...
+
+19.5 About learning itself
+
+A view defended by some is that learning is about compressing; a compression with loss,
+where the loss itself corresponds to the gain in learning.
+
+Throughout the book we have viewed algorithms whose chief goal was to get hold of
+enormous amounts of data and somehow digest this into a simple set of rules which in turn
+allowed us to somehow replace the data by the grammar. In other words, the feeling we
+have reached is that learning is all about forgetting.
+
+&mdash; Colin de la Higuera - Grammatical Inference. Learning Automata and Grammars (2010)
+
+</blockquote>
+
 ### automata learning
 
 - https://github.com/topics/automata-learning
