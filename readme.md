@@ -52,6 +52,17 @@ a **reverse** template engine does the opposite
 
 ## based on
 
+### common substrings
+
+- https://github.com/hanwencheng/CommonSubstrings
+- https://stackoverflow.com/questions/2892931/longest-common-substring-from-more-than-two-strings
+
+#### suffix tree
+
+- https://github.com/maclandrol/SuffixTreeJS
+- https://github.com/jayrbolton/node-suffix-tree
+- https://github.com/nyxtom/text-tree
+
 ### tree diff
 
 - https://github.com/search?l=JavaScript&p=2&q=tree+diff&type=Repositories
