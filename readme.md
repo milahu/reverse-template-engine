@@ -92,6 +92,8 @@ a **reverse** template engine does the opposite
 - https://github.com/topics/grammatical-inference
 - https://github.com/topics/inductive-learning
 - https://libgen.rs/search.php?req=grammatical+inference
+  - Wojciech Wieczorek - Grammatical Inference. Algorithms Routines and Applications (2017)
+  - Colin de la Higuera - Grammatical Inference. Learning Automata and Grammars (2010)
 - https://libgen.rs/search.php?req=grammar+inference
 
 <blockquote>
@@ -119,6 +121,35 @@ by response to the following questions:
 - Among all the rules that match the input, should the obtained one be of a minimum size?
 
 &mdash; Wojciech Wieczorek - Grammatical Inference. Algorithms Routines and Applications (2017)
+
+</blockquote>
+
+<blockquote>
+
+Grammatical Inference
+
+The problem of inducing, learning or inferring grammars has been studied for decades,
+but only in recent years has grammatical inference emerged as an independent field with
+connections to many scientific disciplines, including bio-informatics,
+computational linguistics and pattern recognition.
+
+This book meets the need for a comprehensive and unified
+summary of the basic techniques and results, suitable for researchers working in these
+various areas.
+
+In Part I, the objects of use for grammatical inference are studied in detail: strings
+and their topology, automata and grammars, whether probabilistic or not.
+
+Part II carefully
+explores the main questions in the field: what does learning mean? How can we associate
+complexity theory with learning?
+
+In Part III the author describes a number of techniques
+and algorithms that allow us to learn from text, from an informant, or through interaction
+with the environment. These concern automata, grammars, rewriting systems, pattern
+languages and transducers.
+
+&mdash; Colin de la Higuera - Grammatical Inference. Learning Automata and Grammars (2010)
 
 </blockquote>
 
