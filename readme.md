@@ -333,9 +333,14 @@ have reached is that learning is all about forgetting.
 
 - https://github.com/topics/automata-learning
 - https://github.com/topics/dfa-learning
-- https://github.com/DES-Lab/AALpy
+- https://automata.cs.ru.nl/Tools - Automata Wiki
+- https://github.com/DES-Lab/AALpy - 100 stars - Python - Active Automata Learning Library
 - https://github.com/steynvl/inferrer - 30 stars - Python - automata learning library
-- https://github.com/LearnLib/learnlib - 150 stars - Java - Library for Automata Learning and Experimentation
+- https://github.com/LearnLib/learnlib - 150 stars - Java - Library for Automata Learning and Experimentation.
+  - https://bitbucket.org/learnlib/ralib/ - active learning algorithms for register automata
+  - https://learnlib.de/
+  - https://github.com/Learnlib/learnlib/wiki
+- http://www.italia.cs.ru.nl/tomte/ - tool for learning register automata. The tool uses counterexample guided abstraction refinement to automatically construct abstractions, and uses a Mealy machine learner (such as LearnLib) as a back-end.
 - https://github.com/mvcisback/dfa-identify - identifying (learning) minimal DFAs from labeled examples by reduction to SAT
 - https://github.com/ctlab/DFA-Inductor-py - passive inference via reduction to SAT
 - https://gitlab.science.ru.nl/rick/z3gi - SMT backed passive learning algorithm
