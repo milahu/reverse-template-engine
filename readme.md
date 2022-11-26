@@ -78,6 +78,37 @@ a **reverse** template engine does the opposite
 - https://datascience.stackexchange.com/questions/27058/finding-repeating-string-patterns-in-thousands-of-files
 - Algorithms for Finding Patterns in Strings https://sci-hub.ru/https://doi.org/10.1016/B978-0-444-88071-0.50010-2
 
+### learning algorithms
+
+http://libalf.informatik.rwth-aachen.de/
+
+<blockquote>
+
+Algorithm | offline | online | target model
+-- | -- | -- | --
+Angluin's L* |   | X | DFA
+L* (adding counter-examples to columns) |   | X | DFA
+Kearns / Vazirani |   | X | DFA
+Rivest / Schapire |   | X | DFA
+NL* |   | X | NFA
+Regular positive negative inference (RPNI) | X |   | DFA
+DeLeTe2 | X |   | NFA
+Biermann & Feldman's algorithm | X |   | NFA
+Biermann & Feldman's algorithm (using SAT-solving) | X |   | DFA
+
+Glossary
+
+DFA: a deterministic finite-state automaton
+
+NFA: a nondeterministic finite-state automaton
+
+Offline learning: offline learning algorithms are learning algorithms that passively receive a set of classified data. Their goal then is to generalize this set of positive and negative words to some kind of explanation H (e.g. a DFA) which is in conformance with the input. aka non-supervised learning, passive learning.
+
+Online learning: In contrast to offline learning algorithms, online learning algorithms are capable of actively asking certain kinds of queries to some teacher who is able to classify these queries. This ability lets them infer explanations for the underlying set of already classified words. aka supervised learning, active learning.
+
+</blockquote>
+
+
 ### grammar inference
 
 - grammar learning, grammar inference, grammatical inference, grammar induction
