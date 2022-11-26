@@ -59,6 +59,12 @@ a **reverse** template engine does the opposite
 - https://github.com/hanwencheng/CommonSubstrings
 - https://stackoverflow.com/questions/2892931/longest-common-substring-from-more-than-two-strings
 
+#### suffix tree
+
+- https://github.com/maclandrol/SuffixTreeJS
+- https://github.com/jayrbolton/node-suffix-tree
+- https://github.com/nyxtom/text-tree
+
 ### common pattern
 
 - https://stackoverflow.com/questions/72591638/how-to-find-common-patterns-in-thousands-of-strings
@@ -128,11 +134,43 @@ by response to the following questions:
 - https://gitlab.science.ru.nl/rick/z3gi - SMT backed passive learning algorithm
 - https://pypi.org/project/lstar/ - Active learning algorithm based L* derivative
 
-#### suffix tree
+### Substring-Based Algorithms
 
-- https://github.com/maclandrol/SuffixTreeJS
-- https://github.com/jayrbolton/node-suffix-tree
-- https://github.com/nyxtom/text-tree
+#### Alignment-Based Learning
+
+author: van Zaanen 2000
+
+van Zaanen M (2000) ABL: alignment-based learning. In:Proceedings of the 18th international
+conference on computational linguistics (COLING), association for computational linguistics,
+association for computational linguistics, pp 961–967
+
+https://ilk.uvt.nl/menno/research/software/abl
+
+> ABL learns structure from plain sequences (for example natural language sentences) by comparing them. Based on the parts of the sequences that are the same and parts that are not the same in two sequences, structure is inserted in the sequences.
+
+#### Grammatical Inference
+
+##### Error-Correcting Grammatical Inference
+
+author: Rulot and Vidal 1987
+
+Rulot H, Vidal E (1987) Modelling (sub)string-length based constraints through a grammatical
+inference method. In: Kittler J, Devijver P (eds) Proceedings of the NATO advanced study institute
+on pattern recognition theory and applications. Springer, pp 451–459
+
+##### ADIOS
+
+author: Solan et al. 2005
+
+Solan Z, Horn D, Ruppin E, Edelman S (2005) Unsupervised learning of natural languages. Proc
+Nat Acad Sci USA 102(33):11,629–11,634
+
+##### Data-Oriented Parsing
+
+author: Bod 2006
+
+Bod R (2006) An all-subtrees approach to unsupervised parsing. In: Proceedings of the 21st international conference on computational linguistics and 44th annual meeting of the ACL, association
+for computational linguistics, pp 865–872
 
 ### tree diff
 
@@ -158,6 +196,7 @@ aka: parser-generators
 #### python
 
 - https://github.com/arshaw/scrapemark
+- https://pypi.org/project/fado/ - manipulation of automata, manipulation of regular languages, high-level programming, prototyping of algorithms
 
 #### java
 
