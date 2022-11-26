@@ -72,10 +72,10 @@ a **reverse** template engine does the opposite
 - https://datascience.stackexchange.com/questions/27058/finding-repeating-string-patterns-in-thousands-of-files
 - Algorithms for Finding Patterns in Strings https://sci-hub.ru/https://doi.org/10.1016/B978-0-444-88071-0.50010-2
 
-### grammar induction
+### grammar inference
 
 - https://datascience.stackexchange.com/questions/78377/learn-common-grammar-pattern-from-set-of-sample-strings
-  - grammar learning, grammar inference, grammar induction
+  - grammar learning, grammar inference, grammatical inference, grammar induction
     - https://en.wikipedia.org/wiki/Grammar_induction
 - https://stackoverflow.com/questions/15512918/grammatical-inference-of-regular-expressions-for-given-finite-list-of-representa
   - DFA Learning algorithm
@@ -85,6 +85,36 @@ a **reverse** template engine does the opposite
     - https://github.com/libalf/libalf
 - https://github.com/topics/grammatical-inference
 - https://github.com/topics/inductive-learning
+- https://libgen.rs/search.php?req=grammatical+inference
+- https://libgen.rs/search.php?req=grammar+inference
+
+<blockquote>
+  
+1.1 The Problem and Its Various Formulations
+
+Let us start with the presentation of how many variants of a grammatical inference
+problem we may be faced with.
+
+Informally, we are given a sequence of words and
+the task is to find a rule that lies behind it.
+
+Different models and goals are given
+by response to the following questions:
+
+- Is the sequence finite or infinite?
+- Does the sequence contain only examples (positive words)
+  or also counter-examples (negative words)?
+- Is the sequence of the form: all positive and negative words up to a certain length n?
+- What is meant by the rule: are we satisfied with
+  - regular acceptor
+  - contextfree grammar
+  - context-sensitive grammar
+  - other tool?
+- Among all the rules that match the input, should the obtained one be of a minimum size?
+
+&mdash; Wojciech Wieczorek - Grammatical Inference. Algorithms Routines and Applications (2017)
+
+</blockquote>
 
 ### automata learning
 
@@ -93,6 +123,10 @@ a **reverse** template engine does the opposite
 - https://github.com/DES-Lab/AALpy
 - https://github.com/steynvl/inferrer
 - https://github.com/LearnLib/learnlib
+- https://github.com/mvcisback/dfa-identify - identifying (learning) minimal DFAs from labeled examples by reduction to SAT
+- https://github.com/ctlab/DFA-Inductor-py - passive inference via reduction to SAT
+- https://gitlab.science.ru.nl/rick/z3gi - SMT backed passive learning algorithm
+- https://pypi.org/project/lstar/ - Active learning algorithm based L* derivative
 
 #### suffix tree
 
