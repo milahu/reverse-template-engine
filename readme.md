@@ -13,7 +13,8 @@ most commercial scraping services offer this feature
 
 ## status
 
-- [x] working prototype
+- [x] it can compare two files
+- [ ] it can compare multiple files
 - [ ] it can find arrays of similar items
 - [ ] it can find trees of similar items
 - [ ] it can find optional blocks (conditional blocks)
