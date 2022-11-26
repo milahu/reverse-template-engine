@@ -1,6 +1,6 @@
 # reverse template engine
 
-find a template of many similar html files
+reverse-engineer a JSX template of many similar HTML files
 
 ## similar projects
 
