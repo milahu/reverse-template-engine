@@ -58,6 +58,41 @@ a **reverse** template engine does the opposite
 - https://github.com/hanwencheng/CommonSubstrings
 - https://stackoverflow.com/questions/2892931/longest-common-substring-from-more-than-two-strings
 
+### common pattern
+
+- https://stackoverflow.com/questions/72591638/how-to-find-common-patterns-in-thousands-of-strings
+  - https://en.wikipedia.org/wiki/Phrasal_template
+  - https://en.wikipedia.org/wiki/Collocation_extraction
+  - https://en.wikipedia.org/wiki/Text_mining - parsing, deriving patterns, evaluation
+- https://datascience.stackexchange.com/questions/111739/how-to-find-common-patterns-in-thousands-of-strings
+  - sequence alignment algorithms, usually found in bioinformatics
+    - https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm
+    - https://en.wikipedia.org/wiki/Hirschberg%27s_algorithm
+- https://datascience.stackexchange.com/questions/27058/finding-repeating-string-patterns-in-thousands-of-files
+- Algorithms for Finding Patterns in Strings https://sci-hub.ru/https://doi.org/10.1016/B978-0-444-88071-0.50010-2
+
+### grammar induction
+
+- https://datascience.stackexchange.com/questions/78377/learn-common-grammar-pattern-from-set-of-sample-strings
+  - grammar learning, grammar inference, grammar induction
+    - https://en.wikipedia.org/wiki/Grammar_induction
+- https://stackoverflow.com/questions/15512918/grammatical-inference-of-regular-expressions-for-given-finite-list-of-representa
+  - DFA Learning algorithm
+    - DFA = deterministic finite automaton
+  - libalf - automata learning algorithm framework in C++ 
+    - http://libalf.informatik.rwth-aachen.de/
+    - https://github.com/libalf/libalf
+- https://github.com/topics/grammatical-inference
+- https://github.com/topics/inductive-learning
+
+### automata learning
+
+- https://github.com/topics/automata-learning
+- https://github.com/topics/dfa-learning
+- https://github.com/DES-Lab/AALpy
+- https://github.com/steynvl/inferrer
+- https://github.com/LearnLib/learnlib
+
 #### suffix tree
 
 - https://github.com/maclandrol/SuffixTreeJS
