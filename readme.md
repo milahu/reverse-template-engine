@@ -5,6 +5,7 @@ find a template of many similar html files
 ## similar projects
 
 - https://github.com/sng2c/tmplrev
+- https://github.com/wimpyprogrammer/strings-to-regex
 
 ### commercial
 
