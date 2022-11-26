@@ -343,7 +343,7 @@ have reached is that learning is all about forgetting.
 - http://www.italia.cs.ru.nl/tomte/ - tool for learning register automata. The tool uses counterexample guided abstraction refinement to automatically construct abstractions, and uses a Mealy machine learner (such as LearnLib) as a back-end.
 - https://github.com/mvcisback/dfa-identify - identifying (learning) minimal DFAs from labeled examples by reduction to SAT
 - https://github.com/ctlab/DFA-Inductor-py - passive inference via reduction to SAT
-- https://gitlab.science.ru.nl/rick/z3gi - SMT backed passive learning algorithm
+- https://gitlab.science.ru.nl/rick/z3gi - Satisfiability Modulo Theories (SMT) backed passive learning algorithm. Z3GI is a Python tool and library that uses the [Z3 SMT solver](https://github.com/Z3Prover/z3) for learning minimal consistent state machine models from labeled strings or input/output taces. The ideas the tool is based on and the experiments conducted are described in the publication [Model Learning as a Satisfiability Modulo Theories Problem](https://gitlab.science.ru.nl/rick/z3gi/-/blob/master/extended.pdf) due to appear at the LATA 2018 conference.
 - https://pypi.org/project/lstar/ - Active learning algorithm based L* derivative
 - https://wcventure.github.io/Active-Automata-Learning/ - A Quick Survey of Active Automata Learning
 - https://blog.csdn.net/wcventure/article/details/79144074 - Angluin L* algorithm
